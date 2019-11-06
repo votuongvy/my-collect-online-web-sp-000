@@ -9,4 +9,4 @@ def my_collect(array)
   first_names
 end
 
-my_collect( { |name| name.split(" ").first}
+my_collect(["Tim Jones", "Tom Smith", "Jim Campagno"]) { |name| name.split(" ").first}
